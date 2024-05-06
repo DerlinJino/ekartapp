@@ -1,0 +1,33 @@
+@import "../../../../style.scss";
+.side-navigation {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  box-shadow: 1px 0px 14px 0px lightgray;
+  height: 97%;
+  border-radius: 1rem;
+
+  .section-title {
+    padding: 1rem;
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .individual-category {
+    ul {
+      padding: 0;
+    }
+
+    .sub-items {
+      text-align: center;
+      margin-bottom: 0.6rem;
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        @include underline-transition(0.7);
+      }
+    }
+  }
+}

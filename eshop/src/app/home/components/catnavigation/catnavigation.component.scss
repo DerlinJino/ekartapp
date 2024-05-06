@@ -1,0 +1,23 @@
+@import "../../../../style.scss";
+.navigation-container {
+  max-width: 100%;
+  background-color: #1f1e1e;
+  border-top: #444444 solid 1px;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.2rem 1rem;
+    padding: 0.4rem;
+    height: 2.5rem;
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: white;
+      height: 1.8rem;
+      font-weight: 700;
+
+      @include underline-transition(1.1);
+    }
+  }
+}
